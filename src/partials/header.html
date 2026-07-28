@@ -1,6 +1,28 @@
 <header class="header">
   <div class="container">
-    <h1 class="heading-outline-red">Heading_1</h1>
-    <h1 class="heading-outline-purple">Heading_2</h1>
+    <nav class="header-nav">
+      <a href="./index.html" class="header-logo">
+        <img
+          src="/img/big-favicon.jpg"
+          srcset="/img/big-favicon-2x.jpg 2x"
+          class="header-logo-img"
+          width="40"
+          height="40"
+          alt="logo"
+        />
+      </a>
+      <ul class="main-links {=$hide-visuals}">
+        <li><a href="" class="header-single-link">About</a></li>
+        <li><a href="" class="header-single-link">Advantages</a></li>
+        <li><a href="" class="header-single-link">Reviews</a></li>
+        <li><a href="" class="header-single-link">FAQ</a></li>
+        <li><a href="" class="header-single-link">Contact</a></li>
+      </ul>
+      <button class="burger-button {=$hide-visuals}" data-action="open">
+        <svg class="burger-icon" width="32" height="20">
+          <use href="/img/sprite.svg#icon-mobile_menu"></use>
+        </svg>
+      </button>
+    </nav>
   </div>
 </header>
