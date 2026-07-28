@@ -51,14 +51,14 @@ svg {
 }
 
 .heading-outline-red {
-  -webkit-text-stroke: 10px #bf161f;
+  -webkit-text-stroke: 12px #bf161f;
   -webkit-text-fill-color: #fff;
   paint-order: stroke fill;
   color: #fff;
 }
 
 .heading-outline-purple {
-  -webkit-text-stroke: 5px #411ba1;
+  -webkit-text-stroke: 7px #411ba1;
   -webkit-text-fill-color: #fffbdd;
   paint-order: stroke fill;
   color: #fffbdd;
