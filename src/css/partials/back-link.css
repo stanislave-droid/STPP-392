@@ -1,0 +1,15 @@
+.back-link {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.back-link-icon {
+  fill: var(--primary-color);
+}

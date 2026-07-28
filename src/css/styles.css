@@ -5,14 +5,20 @@
   |============================
 */
 /* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+@import 'modern-normalize';
+@import url('./common/reset.css');
+@import url('./common/base.css');
+@import url('./common/container.css');
+@import url('./common/animations.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+@import url('./partials/header.css');
+@import url('./partials/back-link.css');
+@import url('./partials/hero.css');
+@import url('./partials/about.css');
+@import url('./partials/advantages.css');
+@import url('./partials/reviews.css');
+@import url('./partials/faq.css');
+@import url('./partials/contact-us.css');
+@import url('./partials/terms.css');
+@import url('./partials/policy.css');

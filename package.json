@@ -1,11 +1,11 @@
 {
-  "name": "evpl_vite_template",
+  "name": "STPP-392",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/evpl_vite_template/",
+    "build": "vite build --base=/STPP-392/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview"
   },
@@ -21,6 +21,10 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "accordion-js": "^3.4.1",
+    "modern-normalize": "^3.0.1",
+    "raty-js": "^4.3.0",
+    "swiper": "^14.0.6",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }

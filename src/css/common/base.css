@@ -1,0 +1,55 @@
+:root {
+  font-family: 'Nunito', sans-serif;
+
+  color: #231c39;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary-color: #701ddb;
+  --gold-color: #fbbc04;
+  --background: #f8e9ff;
+  --button-border: 2px solid #ba86ff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--background);
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Titan One', sans-serif;
+  font-weight: 400;
+}
+
+button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.heading-outline-red {
+  -webkit-text-stroke: 10px #bf161f;
+  -webkit-text-fill-color: #fff;
+  paint-order: stroke fill;
+  color: #fff;
+}
+
+.heading-outline-purple {
+  -webkit-text-stroke: 5px #411ba1;
+  -webkit-text-fill-color: #fffbdd;
+  paint-order: stroke fill;
+  color: #fffbdd;
+}
