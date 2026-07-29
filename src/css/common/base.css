@@ -70,3 +70,13 @@ svg {
   paint-order: stroke fill;
   color: #fffbdd;
 }
+
+@media screen and (min-width: 1440px) {
+  .heading-outline-red {
+    -webkit-text-stroke-width: 13px;
+  }
+
+  .heading-outline-purple {
+    -webkit-text-stroke-width: 9px;
+  }
+}

@@ -1,3 +1,43 @@
 <section class="about" data-observer="section" id="about">
-  <div class="container"></div>
+  <div class="container">
+    <picture class="about-img-wrapper">
+      <source
+        srcset="
+          /img/partials/about/about-image.png,
+          /img/partials/about/about-image-2x.png 2x
+        "
+        media="(width >= 1440px)"
+      />
+      <img
+        src="/img/partials/about/about-image_mob.png"
+        srcset="
+          /img/partials/about/about-image_mob.png,
+          /img/partials/about/about-image_mob-2x.png 2x
+        "
+        alt="about image of the game"
+        class="about-img"
+        width="344"
+        height="296"
+      />
+    </picture>
+    <div class="about-content-wrapper">
+      <div class="about-label-wrapper">
+        <svg class="about-label" width="181" height="33">
+          <use href="/img/sprite.svg#icon-about-label"></use>
+        </svg>
+        <p class="about-label-text">About the Game</p>
+      </div>
+      <h2 class="about-title heading-outline-purple">
+        A puzzle journey to rebuild a fallen kingdom
+      </h2>
+      <p class="about-text">
+        Piggy Kingdom follows a friendly pig on a mission to restore his lost
+        castle through hundreds of colorful match-3 levels.
+      </p>
+      <p class="about-text">
+        Players connect and clear gems and objects to complete level goals,
+        earning rewards used to rebuild and decorate the kingdom.
+      </p>
+    </div>
+  </div>
 </section>

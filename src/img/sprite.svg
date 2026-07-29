@@ -104,5 +104,12 @@
         </linearGradient>
       </defs>
     </symbol>
+    <symbol id="icon-about-label" viewBox="0 0 132 24">
+      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M27.311 17.365h-10.817l10.817 4.741v-4.741z"></path>
+      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M0.364 5.574h17.6v12.156l9.167 4.437h-26.766l7.15-8.448-7.15-8.144z"></path>
+      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M104.324 18.471h10.816l-10.816 4.741v-4.741z"></path>
+      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M131.273 6.68h-17.6v12.156l-9.167 4.437h26.767l-7.15-8.448 7.15-8.144z"></path>
+      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M21.325 0.364h90.076c1.807 0 3.273 1.465 3.273 3.273v12.237c0 1.807-1.465 3.273-3.273 3.273h-90.076c-1.807 0-3.273-1.465-3.273-3.273v-12.237c0-1.807 1.465-3.273 3.273-3.273z"></path>
+    </symbol>
   </defs>
 </svg>
