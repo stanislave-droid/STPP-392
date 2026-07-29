@@ -1,0 +1,107 @@
+.about > .container {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  gap: 40px;
+  background-image: url('/img/partials/about/about_background-mob.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.about-img-wrapper {
+}
+.about-img {
+}
+.about-content-wrapper {
+}
+.about-label-wrapper {
+  position: relative;
+  max-width: 181px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 16px;
+}
+.about-label {
+}
+.about-label-text {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  transform: translateX(27%);
+  line-height: 1.25;
+  text-align: center;
+}
+.about-title {
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about-text {
+  line-height: 1.25;
+}
+
+.about-text:first-of-type {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-resolution: 2x) and (-webkit-device-pixel-ratio: 2) {
+  .about > .container {
+    background-image: url('/img/partials/about/about_background-mob-2x.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about > .container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 103px;
+    background-image: url('/img/partials/about/about_background.jpg');
+    padding-top: 120px;
+    padding-bottom: 160px;
+  }
+
+  .about-img {
+    width: 632px;
+    height: 544px;
+  }
+
+  .about-label-wrapper {
+    margin: 0;
+    margin-bottom: 60px;
+  }
+
+  .about-label {
+    width: 272px;
+    height: 48px;
+  }
+
+  .about-label-text {
+    font-size: 24px;
+  }
+
+  .about-title {
+    font-size: 40px;
+    line-height: 1.125;
+    text-align: left;
+  }
+
+  .about-content-wrapper {
+    max-width: 503px;
+  }
+
+  .about-text {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 2x) and (-webkit-device-pixel-ratio: 2) {
+  .about > .container {
+    background-image: url('/img/partials/about/about_background-2x.jpg');
+  }
+}
