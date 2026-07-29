@@ -48,6 +48,10 @@
   line-height: 0.9;
 }
 
+.header-link-active {
+  color: var(--gold-color);
+}
+
 .main-links.hide-links {
   display: none;
 }
