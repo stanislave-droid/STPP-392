@@ -19,7 +19,6 @@
   }
 
   .container:has(.back-link) {
-    /* 118px fixed header + 40px gap to the back link */
-    padding: 158px 205px 0;
+    padding: 218px 205px 0 205px;
   }
 }

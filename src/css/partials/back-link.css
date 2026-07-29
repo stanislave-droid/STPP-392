@@ -1,7 +1,6 @@
 .back-link-wrapper {
   display: flex;
   justify-content: flex-start;
-  margin-top: 112px;
 }
 
 .back-link {
@@ -12,6 +11,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
+  height: 19px;
   color: var(--primary-color);
   transition-property: font-size, line-height, color;
   transition-duration: 0.2s;
@@ -41,10 +41,4 @@
 
 .back-link:active .back-link-icon {
   fill: rgba(86, 32, 161, 0.8);
-}
-
-@media screen and (min-width: 1440px) {
-  .back-link-wrapper {
-    margin-top: 218px;
-  }
 }
