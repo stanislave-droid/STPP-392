@@ -1,12 +1,11 @@
 /* Styles for Mobile devices */
 .contact-us {
+  position: relative;
   box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  aspect-ratio: 376 / 581;
-  margin: 32px 0;
-  padding: 40px 16px;
+  overflow: hidden;
+  width: calc(100% + 32px);
+  aspect-ratio: 375 / 581;
+  margin: 32px -16px;
   background-image: url('../../img/partials/Contact/Contac_mob-1x.jpg');
   background-image: image-set(
     url('../../img/partials/Contact/Contac_mob-1x.jpg') 1x,
@@ -17,60 +16,57 @@
   background-repeat: no-repeat;
 }
 
+.contact-us::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(35, 28, 57, 0.2);
+  pointer-events: none;
+}
+
 .contact-us-inner {
+  position: absolute;
+  z-index: 1;
+  left: calc(50% + 0.5px);
+  top: calc(50% - 35px);
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  max-width: 343px;
-  margin: 0 auto;
+  gap: 40px;
+  width: min(343px, calc(100% - 32px));
   text-align: center;
 }
 
-.contact-us-label {
-  position: relative;
-  z-index: 1;
-  display: inline-flex;
+.contact-us-title-group {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 32px;
-  padding: 0 20px;
-  background: linear-gradient(180deg, #fbbc04 0%, #ffe9a6 50%, #fbbc04 100%);
-  border: 1px solid #cc9800;
-  border-radius: 4px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: #231c39;
+  gap: 24px;
 }
 
-.contact-us-label::before,
-.contact-us-label::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  width: 12px;
-  height: 12px;
-  background: linear-gradient(180deg, #fbbc04 0%, #cc9800 100%);
-  border: 1px solid #cc9800;
-  transform: translateY(-50%) rotate(45deg);
-  z-index: -1;
+.contact-us-contacts-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
 }
 
-.contact-us-label::before {
-  left: -6px;
+.contact-us-label {
+  display: block;
 }
 
-.contact-us-label::after {
-  right: -6px;
+.contact-us-label-desk {
+  display: none;
 }
 
 .contact-us-heading {
   margin: 0;
-  font-size: 28px;
-  line-height: 34px;
-  letter-spacing: -0.84px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.72px;
 }
 
 .contact-us-email {
@@ -79,14 +75,15 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 48px;
+  height: 60px;
   padding: 12px 24px;
   background-color: #fff;
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(112, 29, 219, 0.3);
   font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
   color: var(--primary-color);
 }
 
@@ -95,21 +92,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
   width: 100%;
-  min-height: 48px;
-  padding: 12px 24px;
+  padding: 16px 58px;
   background-color: var(--primary-color);
+  border: var(--button-border);
   border-radius: 8px;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 24px;
   color: #fff;
 }
 
 .contact-us-cta-icon {
   flex-shrink: 0;
+}
+
+.contact-us-cta:hover {
+  box-shadow: 0 0 0 2px var(--gold-color);
 }
 
 .contact-us-email:focus-visible,
@@ -121,10 +122,10 @@
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
   .contact-us {
+    width: calc(100% + 200px);
     aspect-ratio: 1440 / 581;
-    justify-content: center;
-    padding: 40px 100px;
-    border-radius: 40px;
+    margin: 32px -100px;
+    border-radius: 0;
     background-image: url('../../img/partials/Contact/Contact_Background-1x.jpg');
     background-image: image-set(
       url('../../img/partials/Contact/Contact_Background-1x.jpg') 1x,
@@ -133,11 +134,29 @@
   }
 
   .contact-us-inner {
-    gap: 24px;
-    max-width: 420px;
+    left: 50%;
+    top: calc(50% - 20px);
+    width: auto;
+  }
+
+  .contact-us-title-group {
+    width: auto;
+  }
+
+  .contact-us-contacts-group {
+    width: auto;
+  }
+
+  .contact-us-label-mob {
+    display: none;
+  }
+
+  .contact-us-label-desk {
+    display: block;
   }
 
   .contact-us-heading {
+    white-space: nowrap;
     font-size: 40px;
     line-height: 45px;
     letter-spacing: -1.2px;
@@ -145,7 +164,16 @@
 
   .contact-us-email,
   .contact-us-cta {
-    width: auto;
-    min-width: 343px;
+    width: 397px;
+  }
+
+  .contact-us-email {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .contact-us-cta {
+    padding: 20px 84px;
   }
 }
