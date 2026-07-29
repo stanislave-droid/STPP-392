@@ -13,6 +13,13 @@
   --gold-color: #fbbc04;
   --background: #f8e9ff;
   --button-border: 2px solid #ba86ff;
+
+  --font-family: 'Nunito', sans-serif;
+  --second-family: 'Titan One', sans-serif;
+  --text: #231c39;
+  --heading-2: #fffbdd;
+  --h2-border: #411ba1;
+  --header-bg: rgba(86, 32, 161, 0.8);
 }
 
 html {
@@ -35,7 +42,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: 'Titan One', sans-serif;
+  font-family: var(--second-family);
   font-weight: 400;
 }
 
