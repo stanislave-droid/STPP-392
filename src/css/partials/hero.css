@@ -1,0 +1,113 @@
+.hero > .container {
+  padding-top: 172px;
+  padding-bottom: 362px;
+  background-image: url('/img/partials/hero/hero-background-mob.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.hero-wrapper {
+}
+
+.main-headding {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.main-headding > span {
+  display: block;
+}
+
+.hero-headding-white {
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.hero-headding-light {
+  -webkit-text-fill-color: var(--gold-color);
+  color: var(--gold-color);
+}
+
+.hero-text {
+  font-weight: 400;
+  line-height: 1.25;
+  color: #fff;
+  margin-bottom: 48px;
+}
+
+.hero-button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  border: 2px solid #ba86ff;
+  border-radius: 8px;
+  width: 100%;
+  height: 59px;
+  background-color: var(--primary-color);
+  transition-property: transform, background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.hero-button:active {
+  background-color: rgba(86, 32, 161, 0.8);
+}
+
+.hero-button-icon {
+}
+
+@media screen and (min-resolution: 2x) and (-webkit-device-pixel-ratio: 2) {
+  .hero > .container {
+    background-image: url('/img/partials/hero/hero-background-mob-2x.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero > .container {
+    padding-top: 209px;
+    padding-bottom: 374px;
+    background-image: url('/img/partials/hero/hero_background.jpg');
+  }
+
+  .main-headding {
+    font-size: 60px;
+    line-height: 1.13333;
+    max-width: 680px;
+    margin-bottom: 32px;
+  }
+
+  .hero-headding-white {
+    margin-bottom: 16px;
+  }
+
+  .hero-text {
+    font-size: 24px;
+    max-width: 414px;
+    margin-bottom: 64px;
+  }
+
+  .hero-button {
+    width: 397px;
+    height: 60px;
+  }
+
+  .hero-button:hover,
+  .hero-button:focus {
+    transform: scale(1.05);
+    background-color: #411ba1;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 2x) and (-webkit-device-pixel-ratio) {
+  .hero > .container {
+    background-image: url('/img/partials/hero/hero_background-2x.jpg');
+  }
+}
