@@ -111,5 +111,35 @@
       <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M131.273 6.68h-17.6v12.156l-9.167 4.437h26.767l-7.15-8.448 7.15-8.144z"></path>
       <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M21.325 0.364h90.076c1.807 0 3.273 1.465 3.273 3.273v12.237c0 1.807-1.465 3.273-3.273 3.273h-90.076c-1.807 0-3.273-1.465-3.273-3.273v-12.237c0-1.807 1.465-3.273 3.273-3.273z"></path>
     </symbol>
+    <svg id="adventages-label-mob" width="181" height="33" viewBox="0 0 181 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M37.5525 23.8772H22.6797L37.5525 30.3957V23.8772Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M0.500763 7.66431H22.5579H24.7006V24.3783L37.3047 30.4789H0.500763L10.3319 18.8627L0.500763 7.66431Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M143.446 25.3979H158.318L143.446 31.9164V25.3979Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M180.501 9.1853H158.444H156.301V25.8993L143.697 31.9999H180.501L170.67 20.3837L180.501 9.1853Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <rect x="24.8223" y="0.5" width="132.855" height="25.8253" rx="4.5" fill="url(#paint0_linear_2074_729)" stroke="#CC9800" />
+      <defs>
+        <linearGradient id="paint0_linear_2074_729" x1="24.3223" y1="13.4127" x2="158.178" y2="13.4127" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FBBC04" />
+          <stop offset="0.3" stop-color="#FFDB72" />
+          <stop offset="0.7" stop-color="#FFDB72" />
+          <stop offset="1" stop-color="#FBBC04" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <svg id="adventages-label" width="223" height="49" viewBox="0 0 223 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M46.2035 35.8157H27.8604L46.2035 45.5934V35.8157Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M0.500187 11.4966H27.7039H30.3466V36.5676L45.8916 45.7185H0.500187L12.6253 28.2942L0.500187 11.4966Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M176.797 38.0972H195.14L176.797 47.8749V38.0972Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M222.5 13.7781H195.296H192.653V38.8491L177.108 48H222.5L210.375 30.5756L222.5 13.7781Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <rect x="30.3818" y="0.5" width="164.088" height="39.2381" rx="4.5" fill="url(#paint0_linear_2074_83)" stroke="#CC9800" />
+      <defs>
+        <linearGradient id="paint0_linear_2074_83" x1="29.8818" y1="20.119" x2="194.97" y2="20.119" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FBBC04" />
+          <stop offset="0.3" stop-color="#FFDB72" />
+          <stop offset="0.7" stop-color="#FFDB72" />
+          <stop offset="1" stop-color="#FBBC04" />
+        </linearGradient>
+      </defs>
+    </svg>
   </defs>
 </svg>
