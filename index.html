@@ -12,37 +12,343 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/STPP-392/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STPP-392/assets/styles-DzzsHKVw.css">
+    <link rel="modulepreload" crossorigin href="/STPP-392/assets/vendor-BSq3Nu46.js">
+    <link rel="stylesheet" crossorigin href="/STPP-392/assets/styles-DqmtTgdv.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <h1 class="heading-outline-red">Heading_1</h1>
-    <h1 class="heading-outline-purple">Heading_2</h1>
+    <nav class="header-nav" aria-label="main navigation">
+      <a href="./index.html" class="header-logo">
+        <img
+          src="/STPP-392/assets/big-favicon-CPTOZxag.jpg"
+          srcset="/STPP-392/assets/big-favicon-2x-BHrb4WHG.jpg 2x"
+          class="header-logo-img"
+          width="40"
+          height="40"
+          alt="logo"
+        />
+      </a>
+      <ul class="main-links {=$hide-visuals}">
+        <li><a href="#about" class="header-single-link" data-link>About</a></li>
+        <li>
+          <a href="#adventages" class="header-single-link" data-link
+            >Advantages</a
+          >
+        </li>
+        <li>
+          <a href="#reviews" class="header-single-link" data-link>Reviews</a>
+        </li>
+        <li><a href="#faq" class="header-single-link" data-link>FAQ</a></li>
+        <li>
+          <a href="#contact-us" class="header-single-link" data-link>Contact</a>
+        </li>
+      </ul>
+      <button class="burger-button {=$hide-visuals}" data-action="open">
+        <svg class="burger-icon" width="32" height="20">
+          <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-mobile_menu"></use>
+        </svg>
+      </button>
+    </nav>
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-      <div class="container">
-        <section class="hero"></section>
+      <section class="hero">
+  <div class="container">
+    <div class="hero-wrapper">
+      <h1 class="main-headding">
+        <span class="hero-headding-white heading-outline-red">Match Gems.</span>
+        <span class="hero-headding-light heading-outline-red"
+          >Restore the Kingdom</span
+        >
+      </h1>
+      <p class="hero-text">
+        A cheerful match-3 puzzle adventure with a castle worth saving
+      </p>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.olleyo.piggy.king.free&hl=en&gl=us"
+        class="hero-button"
+      >
+        Play on Google Play
+        <svg class="hero-button-icon" width="24" height="27">
+          <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-playmarket"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
 
-        <section class="about"></section>
-
-        <section class="advantages"></section>
-
-        <section class="reviews"></section>
-
-        <section class="faq"></section>
-
-        <section class="contact-us"></section>
-
+      <section class="about" data-observer="section" id="about">
+  <div class="container">
+    <picture class="about-img-wrapper">
+      <source
+        srcset="/STPP-392/assets/about-image-BLuQjh0_.png, /STPP-392/assets/about-image-2x-CKA5KcM3.png 2x"
+        media="(width >= 1440px)"
+      />
+      <img
+        src="/STPP-392/assets/about-image_mob-DbPDgZLN.png"
+        srcset="/STPP-392/assets/about-image_mob-DbPDgZLN.png, /STPP-392/assets/about-image_mob-2x-DOH0VvSC.png 2x"
+        alt="about image of the game"
+        class="about-img"
+        width="344"
+        height="296"
+      />
+    </picture>
+    <div class="about-content-wrapper">
+      <div class="about-label-wrapper">
+        <svg class="about-label" width="181" height="33">
+          <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-about-label"></use>
+        </svg>
+        <p class="about-label-text">About the Game</p>
       </div>
+      <h2 class="about-title heading-outline-purple">
+        A puzzle journey to rebuild a fallen kingdom
+      </h2>
+      <p class="about-text">
+        Piggy Kingdom follows a friendly pig on a mission to restore his lost
+        castle through hundreds of colorful match-3 levels.
+      </p>
+      <p class="about-text">
+        Players connect and clear gems and objects to complete level goals,
+        earning rewards used to rebuild and decorate the kingdom.
+      </p>
+    </div>
+  </div>
+</section>
+
+      <section class="advantages" data-observer="section" id="adventages"></section>
+
+      <section class="reviews" data-observer="section" id="reviews"></section>
+
+      <section
+  class="faq"
+  aria-labelledby="faq-heading"
+  data-observer="section"
+  id="faq"
+>
+  <div class="container">
+    <div class="faq-content">
+      <div class="faq-heading-group">
+        <p class="faq-label" aria-hidden="true">
+          <svg class="faq-label-icon faq-label-icon-mobile" focusable="false">
+            <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-faq-mob"></use>
+          </svg>
+          <svg class="faq-label-icon faq-label-icon-desktop" focusable="false">
+            <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-faq"></use>
+          </svg>
+        </p>
+        <h2 id="faq-heading" class="faq-heading heading-outline-purple">
+          Quick answers
+        </h2>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="ac faq-item">
+          <h3 class="ac-header faq-item-header">
+            <button type="button" class="ac-trigger faq-item-trigger">
+              <span class="faq-item-question"
+                >Is Piggy Kingdom free to play?</span
+              >
+              <svg
+                class="faq-item-icon"
+                width="32"
+                height="32"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-faq-plus"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel faq-item-panel">
+            <p class="ac-text faq-item-answer">
+              Yes, with optional in-game purchases available.
+            </p>
+          </div>
+        </div>
+
+        <div class="ac faq-item">
+          <h3 class="ac-header faq-item-header">
+            <button type="button" class="ac-trigger faq-item-trigger">
+              <span class="faq-item-question"
+                >What is the main goal of the game?</span
+              >
+              <svg
+                class="faq-item-icon"
+                width="32"
+                height="32"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-faq-plus"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel faq-item-panel">
+            <p class="ac-text faq-item-answer">
+              To restore and decorate the pig's lost castle kingdom.
+            </p>
+          </div>
+        </div>
+
+        <div class="ac faq-item">
+          <h3 class="ac-header faq-item-header">
+            <button type="button" class="ac-trigger faq-item-trigger">
+              <span class="faq-item-question"
+                >Are there boosters to help with hard levels?</span
+              >
+              <svg
+                class="faq-item-icon"
+                width="32"
+                height="32"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-faq-plus"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel faq-item-panel">
+            <p class="ac-text faq-item-answer">
+              Yes, various boosters help clear difficult boards.
+            </p>
+          </div>
+        </div>
+
+        <div class="ac faq-item">
+          <h3 class="ac-header faq-item-header">
+            <button type="button" class="ac-trigger faq-item-trigger">
+              <span class="faq-item-question"
+                >Is the game suitable for beginners?</span
+              >
+              <svg
+                class="faq-item-icon"
+                width="32"
+                height="32"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-faq-plus"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel faq-item-panel">
+            <p class="ac-text faq-item-answer">
+              Yes, it's designed for both beginners and experienced players.
+            </p>
+          </div>
+        </div>
+
+        <div class="ac faq-item">
+          <h3 class="ac-header faq-item-header">
+            <button type="button" class="ac-trigger faq-item-trigger">
+              <span class="faq-item-question"
+                >Are new levels added regularly?</span
+              >
+              <svg
+                class="faq-item-icon"
+                width="32"
+                height="32"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-faq-plus"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="ac-panel faq-item-panel">
+            <p class="ac-text faq-item-answer">
+              Yes, new levels and areas are added frequently.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section
+  class="contact-us"
+  aria-labelledby="contact-us-heading"
+  data-observer="section"
+  id="contact-us"
+>
+  <div class="container contact-us-container">
+    <div class="contact-us-title-group">
+      <svg
+        class="contact-us-label contact-us-label-mob"
+        width="180"
+        height="32"
+        role="img"
+        aria-label="Contact"
+        focusable="false"
+      >
+        <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-label-mob"></use>
+      </svg>
+
+      <svg
+        class="contact-us-label contact-us-label-desk"
+        width="176"
+        height="49"
+        role="img"
+        aria-label="Contact"
+        focusable="false"
+      >
+        <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-label-desk"></use>
+      </svg>
+
+      <h2
+        id="contact-us-heading"
+        class="contact-us-heading heading-outline-purple"
+      >
+        Ready to rebuild the kingdom?
+      </h2>
+    </div>
+
+    <div class="contact-us-contacts-group">
+      <a class="contact-us-email" href="mailto:info@urbananchor.pro">
+        Email: info@urbananchor.pro
+      </a>
+
+      <a
+        class="contact-us-cta"
+        href="https://play.google.com/googleplaygames/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span>Play on Google Play</span>
+
+        <svg
+          class="contact-us-cta-icon"
+          width="24"
+          height="27"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <use href="/STPP-392/assets/sprite-zTPB74Gh.svg#icon-playmarket"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
     </main>
 
     <footer class="footer">
-  <div class="container"></div>
+  <div class="container">
+    <div class="footer-inner">
+      <p class="footer-copyright">
+        © 2026 urbananchor.pro — All rights reserved.
+      </p>
+      <ul class="footer-links">
+        <li><a class="footer-link" href="./policy.html">Privacy Policy</a></li>
+        <li><a class="footer-link" href="./terms.html">Terms of Service</a></li>
+      </ul>
+    </div>
+  </div>
 </footer>
 
 
