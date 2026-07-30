@@ -1,3 +1,55 @@
-.footer {
-  padding: 20px 0;
+/* Styles for Mobile devices */
+.footer > .container {
+  background-color: #231c39;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  min-height: 112px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-link {
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-link:hover,
+.footer-link:focus-visible {
+  color: var(--gold-color);
+}
+
+.footer-link:focus-visible {
+  outline: 2px solid var(--gold-color);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1440px) {
+  .footer-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 98px;
+    text-align: left;
+  }
 }
