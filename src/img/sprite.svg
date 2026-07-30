@@ -104,13 +104,36 @@
         </linearGradient>
       </defs>
     </symbol>
-    <symbol id="icon-about-label" viewBox="0 0 132 24">
-      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M27.311 17.365h-10.817l10.817 4.741v-4.741z"></path>
-      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M0.364 5.574h17.6v12.156l9.167 4.437h-26.766l7.15-8.448-7.15-8.144z"></path>
-      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M104.324 18.471h10.816l-10.816 4.741v-4.741z"></path>
-      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M131.273 6.68h-17.6v12.156l-9.167 4.437h26.767l-7.15-8.448 7.15-8.144z"></path>
-      <path fill="#fbbc04" style="fill: var(--color1, #fbbc04); stroke: var(--color2, #cc9800)" stroke="#cc9800" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M21.325 0.364h90.076c1.807 0 3.273 1.465 3.273 3.273v12.237c0 1.807-1.465 3.273-3.273 3.273h-90.076c-1.807 0-3.273-1.465-3.273-3.273v-12.237c0-1.807 1.465-3.273 3.273-3.273z"></path>
-    </symbol>
+    <svg id="icon-about-label-mob" width="181" height="33" viewBox="0 0 181 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M37.5525 23.8772H22.6797L37.5525 30.3957V23.8772Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M0.500763 7.66431H22.5579H24.7006V24.3783L37.3047 30.4789H0.500763L10.3319 18.8627L0.500763 7.66431Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M143.446 25.3979H158.318L143.446 31.9164V25.3979Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M180.501 9.1853H158.444H156.301V25.8993L143.697 31.9999H180.501L170.67 20.3837L180.501 9.1853Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <rect x="24.8223" y="0.5" width="132.855" height="25.8253" rx="4.5" fill="url(#paint0_linear_2074_440)" stroke="#CC9800" />
+      <defs>
+        <linearGradient id="paint0_linear_2074_440" x1="24.3223" y1="13.4127" x2="158.178" y2="13.4127" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FBBC04" />
+          <stop offset="0.3" stop-color="#FFDB72" />
+          <stop offset="0.7" stop-color="#FFDB72" />
+          <stop offset="1" stop-color="#FBBC04" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <svg id="icon-about-label" width="271" height="49" viewBox="0 0 271 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M56.0856 35.8157H33.7764L56.0856 45.5934V35.8157Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M0.500278 11.4966H33.5859H36.8V36.5676L55.7061 45.7185H0.500278L15.247 28.2942L0.500278 11.4966Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M214.916 38.0972H237.226L214.916 47.8749V38.0972Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M270.502 13.7781H237.416H234.202V38.8491L215.296 48H270.502L255.755 30.5756L270.502 13.7781Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <rect x="36.7373" y="0.5" width="199.783" height="39.2381" rx="4.5" fill="url(#paint0_linear_2074_396)" stroke="#CC9800" />
+      <defs>
+        <linearGradient id="paint0_linear_2074_396" x1="36.2373" y1="20.119" x2="237.02" y2="20.119" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FBBC04" />
+          <stop offset="0.3" stop-color="#FFDB72" />
+          <stop offset="0.7" stop-color="#FFDB72" />
+          <stop offset="1" stop-color="#FBBC04" />
+        </linearGradient>
+      </defs>
+    </svg>
     <svg id="adventages-label-mob" width="181" height="33" viewBox="0 0 181 33" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M37.5525 23.8772H22.6797L37.5525 30.3957V23.8772Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
       <path d="M0.500763 7.66431H22.5579H24.7006V24.3783L37.3047 30.4789H0.500763L10.3319 18.8627L0.500763 7.66431Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />

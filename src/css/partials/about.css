@@ -24,8 +24,14 @@
   display: block;
   margin-bottom: 16px;
 }
-.about-label {
+
+.about-label-mob {
 }
+
+.about-label {
+  display: none;
+}
+
 .about-label-text {
   position: absolute;
   top: 3px;
@@ -75,9 +81,12 @@
     margin-bottom: 60px;
   }
 
+  .about-label-mob {
+    display: none;
+  }
+
   .about-label {
-    width: 272px;
-    height: 48px;
+    display: block;
   }
 
   .about-label-text {
