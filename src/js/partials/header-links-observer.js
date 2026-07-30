@@ -12,9 +12,9 @@ const observer = new IntersectionObserver(entries => {
     if (entry.isIntersecting) {
       const id = entry.target.getAttribute('id');
       links.forEach(link => {
-        link.classList.remove('header-link-active');
+        link.dataset.link = '';
         if (link.getAttribute('href') === `#${id}`) {
-          link.classList.add('header-link-active');
+          link.dataset.link = 'active';
         }
       });
     }
