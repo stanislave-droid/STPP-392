@@ -58,25 +58,15 @@ svg {
 }
 
 .heading-outline-red {
-  -webkit-text-stroke: 12px #bf161f;
+  -webkit-text-stroke: 13px #bf161f;
   -webkit-text-fill-color: #fff;
   paint-order: stroke fill;
   color: #fff;
 }
 
 .heading-outline-purple {
-  -webkit-text-stroke: 7px #411ba1;
+  -webkit-text-stroke: 9px #411ba1;
   -webkit-text-fill-color: #fffbdd;
   paint-order: stroke fill;
   color: #fffbdd;
-}
-
-@media screen and (min-width: 1440px) {
-  .heading-outline-red {
-    -webkit-text-stroke-width: 13px;
-  }
-
-  .heading-outline-purple {
-    -webkit-text-stroke-width: 9px;
-  }
 }

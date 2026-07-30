@@ -48,7 +48,7 @@
   line-height: 0.9;
 }
 
-.header-link-active {
+[data-link='active'] {
   color: var(--gold-color);
 }
 
