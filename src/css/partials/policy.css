@@ -1,0 +1,75 @@
+/* Styles for Mobile devices */
+.policy {
+  padding: 40px 0 64px;
+}
+
+.policy-title {
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  -webkit-text-stroke: 7px var(--h2-border);
+  -webkit-text-fill-color: var(--heading-2);
+  paint-order: stroke fill;
+  color: var(--heading-2);
+}
+
+.policy-content {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text);
+}
+
+.policy-content > * + * {
+  margin-top: 16px;
+}
+
+.policy-content > h3 {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 24px;
+  -webkit-text-stroke: 3px var(--h2-border);
+  -webkit-text-fill-color: var(--heading-2);
+  paint-order: stroke fill;
+  color: var(--heading-2);
+}
+
+.policy-content > h3:first-child {
+  margin-top: 0;
+}
+
+.policy-content a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.policy-content a:hover,
+.policy-content a:focus-visible {
+  color: var(--gold-color);
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1440px) {
+  .policy {
+    padding: 48px 0 100px;
+  }
+
+  .policy-title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 45px;
+    -webkit-text-stroke: 7px var(--h2-border);
+  }
+
+  .policy-content {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .policy-content > h3 {
+    margin-top: 48px;
+    font-size: 22px;
+    -webkit-text-stroke: 3px var(--h2-border);
+  }
+}

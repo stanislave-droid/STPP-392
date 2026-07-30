@@ -1,15 +1,44 @@
+.back-link-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .back-link {
   display: flex;
   gap: 16px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1;
-  text-align: center;
+  line-height: 18px;
+  height: 19px;
   color: var(--primary-color);
+  transition-property: font-size, line-height, color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.back-link:hover,
+.back-link:focus {
+  font-size: 20px;
+  line-height: 0.9;
+  color: #411ba1;
+}
+
+.back-link:active {
+  color: rgba(86, 32, 161, 0.8);
 }
 
 .back-link-icon {
+  transition: fill 0.2s ease-in-out;
   fill: var(--primary-color);
+}
+
+.back-link:hover .back-link-icon,
+.back-link:focus .back-link-icon {
+  fill: #411ba1;
+}
+
+.back-link:active .back-link-icon {
+  fill: rgba(86, 32, 161, 0.8);
 }
