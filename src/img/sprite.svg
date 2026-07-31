@@ -17,10 +17,10 @@
       <path fill="none" stroke="#fbbc04" style="stroke: var(--color2, #fbbc04)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.5" d="M13.846 8.109c0.181 0.556 0.7 0.933 1.285 0.933h5.972l-4.831 3.511c-0.473 0.344-0.671 0.953-0.491 1.509l1.846 5.682-4.833-3.511-0.185-0.113c-0.383-0.194-0.836-0.194-1.219 0l-0.185 0.113-4.834 3.511 1.847-5.682c0.181-0.556-0.018-1.165-0.491-1.509l-4.831-3.511h5.972c0.585 0 1.104-0.377 1.285-0.933l1.846-5.685 1.846 5.685z"></path>
     </symbol>
     <symbol id="icon-swiper-right-arrow" viewBox="0 0 11 24">
-      <path fill="none" stroke="#701ddb" style="stroke: var(--color5, #701ddb)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6087" d="M1.304 1.304l8.348 10.435-8.348 10.435"></path>
+      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6087" d="M1.304 1.304l8.348 10.435-8.348 10.435"></path>
     </symbol>
     <symbol id="icon-swiper-left-arrow" viewBox="0 0 11 24">
-      <path fill="none" stroke="#701ddb" style="stroke: var(--color5, #701ddb)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6087" d="M10.018 1.304l-8.348 10.435 8.348 10.435"></path>
+      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6087" d="M10.018 1.304l-8.348 10.435 8.348 10.435"></path>
     </symbol>
     <symbol id="icon-swiper-pagination-full-dot" viewBox="0 0 24 24">
       <path fill="#701ddb" style="fill: var(--color5, #701ddb)" d="M24 12c0 6.627-5.373 12-12 12s-12-5.373-12-12c0-6.627 5.373-12 12-12s12 5.373 12 12z"></path>
@@ -157,6 +157,36 @@
       <rect x="30.3818" y="0.5" width="164.088" height="39.2381" rx="4.5" fill="url(#paint0_linear_2074_83)" stroke="#CC9800" />
       <defs>
         <linearGradient id="paint0_linear_2074_83" x1="29.8818" y1="20.119" x2="194.97" y2="20.119" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FBBC04" />
+          <stop offset="0.3" stop-color="#FFDB72" />
+          <stop offset="0.7" stop-color="#FFDB72" />
+          <stop offset="1" stop-color="#FBBC04" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <svg id="reviews-label-mob" width="181" height="33" viewBox="0 0 181 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M37.5525 23.877H22.6797L37.5525 30.3954V23.877Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M0.500763 7.66406H22.5579H24.7006V24.378L37.3047 30.4787H0.500763L10.3319 18.8624L0.500763 7.66406Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M143.446 25.3984H158.318L143.446 31.9169V25.3984Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M180.501 9.18555H158.444H156.301V25.8995L143.697 32.0001H180.501L170.67 20.3839L180.501 9.18555Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <rect x="24.8223" y="0.5" width="132.855" height="25.8253" rx="4.5" fill="url(#paint0_linear_2096_98)" stroke="#CC9800" />
+      <defs>
+        <linearGradient id="paint0_linear_2096_98" x1="24.3223" y1="13.4127" x2="158.178" y2="13.4127" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FBBC04" />
+          <stop offset="0.3" stop-color="#FFDB72" />
+          <stop offset="0.7" stop-color="#FFDB72" />
+          <stop offset="1" stop-color="#FBBC04" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <svg id="reviews-label" width="184" height="49" viewBox="0 0 184 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M38.1744 35.8159H23.0537L38.1744 45.5936V35.8159Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M0.499744 11.4966H22.9245H25.1029V36.5676L37.917 45.7185H0.499744L10.4948 28.2942L0.499744 11.4966Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M145.826 38.0977H160.946L145.826 47.8753V38.0977Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <path d="M183.5 13.7783H161.076H158.897V38.8493L146.083 48.0002H183.5L173.505 30.5759L183.5 13.7783Z" fill="#FBBC04" stroke="#CC9800" stroke-linejoin="round" />
+      <rect x="25.2197" y="0.5" width="135.086" height="39.2381" rx="4.5" fill="url(#paint0_linear_2096_171)" stroke="#CC9800" />
+      <defs>
+        <linearGradient id="paint0_linear_2096_171" x1="24.7197" y1="20.119" x2="160.806" y2="20.119" gradientUnits="userSpaceOnUse">
           <stop stop-color="#FBBC04" />
           <stop offset="0.3" stop-color="#FFDB72" />
           <stop offset="0.7" stop-color="#FFDB72" />
