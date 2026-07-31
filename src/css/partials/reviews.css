@@ -100,6 +100,7 @@
 .review-swiper-btn-prev:focus {
   transform: scale(1.2);
   stroke: #411ba1;
+  cursor: pointer;
 }
 
 .review-swiper-btn-prev:active {
@@ -120,6 +121,7 @@
 .review-swiper-btn-next:focus {
   transform: scale(1.2);
   stroke: #411ba1;
+  cursor: pointer;
 }
 
 .review-swiper-btn-next:active {
