@@ -90,7 +90,7 @@
   justify-content: center;
   gap: 10px;
   width: 100%;
-  padding: 16px 58px;
+  height: 59px;
   border: var(--button-border);
   border-radius: 8px;
   background-color: var(--primary-color);
@@ -99,20 +99,17 @@
   font-weight: 700;
   line-height: 24px;
   color: #fff;
+  transition-property: transform, background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
 }
 
 .contact-us-cta-icon {
   flex-shrink: 0;
 }
 
-.contact-us-cta:hover,
-.contact-us-cta:focus {
-  transform: scale(1.05);
-  background-color: #411ba1;
-}
-
-.contact-us-cta:hover {
-  box-shadow: 0 0 0 2px var(--gold-color);
+.contact-us-cta:active {
+  background-color: rgba(86, 32, 161, 0.8);
 }
 
 .contact-us-email:focus-visible,
@@ -163,6 +160,12 @@
   }
 
   .contact-us-cta {
-    padding: 20px 84px;
+    height: 60px;
+  }
+
+  .contact-us-cta:hover,
+  .contact-us-cta:focus {
+    transform: scale(1.05);
+    background-color: #411ba1;
   }
 }
