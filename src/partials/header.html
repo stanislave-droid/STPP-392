@@ -26,7 +26,14 @@
           <a href="#contact-us" class="header-single-link" data-link>Contact</a>
         </li>
       </ul>
-      <button class="burger-button {=$hide-visuals}" data-action="open">
+      <button
+        class="burger-button {=$hide-visuals}"
+        type="button"
+        data-action="open"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Open menu"
+      >
         <svg class="burger-icon" width="32" height="20">
           <use href="/img/sprite.svg#icon-mobile_menu"></use>
         </svg>
@@ -34,3 +41,65 @@
     </nav>
   </div>
 </header>
+
+<div class="mobile-menu" id="mobile-menu" data-visible="close">
+  <div class="container mobile-menu-top">
+    <a href="./index.html" class="header-logo">
+      <img
+        src="/img/big-favicon.jpg"
+        srcset="/img/big-favicon-2x.jpg 2x"
+        class="header-logo-img"
+        width="40"
+        height="40"
+        alt="logo"
+      />
+    </a>
+    <button
+      class="mobile-menu-close"
+      type="button"
+      data-action="close"
+      aria-label="Close menu"
+    >
+      <svg class="mobile-menu-close-icon" width="28" height="24">
+        <use href="/img/sprite.svg#icon-close-mobile_menu"></use>
+      </svg>
+    </button>
+  </div>
+  <nav class="mobile-menu-nav" aria-label="mobile navigation">
+    <ul class="mobile-menu-links">
+      <li>
+        <a href="#about" class="mobile-menu-link" data-link data-mobile-link
+          >About</a
+        >
+      </li>
+      <li>
+        <a
+          href="#adventages"
+          class="mobile-menu-link"
+          data-link
+          data-mobile-link
+          >Advantages</a
+        >
+      </li>
+      <li>
+        <a href="#reviews" class="mobile-menu-link" data-link data-mobile-link
+          >Reviews</a
+        >
+      </li>
+      <li>
+        <a href="#faq" class="mobile-menu-link" data-link data-mobile-link
+          >FAQ</a
+        >
+      </li>
+      <li>
+        <a
+          href="#contact-us"
+          class="mobile-menu-link"
+          data-link
+          data-mobile-link
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
