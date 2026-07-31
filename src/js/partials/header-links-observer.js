@@ -1,3 +1,5 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const sections = document.querySelectorAll('[data-observer="section"]');
 const links = document.querySelectorAll('[data-link]');
 
@@ -22,3 +24,7 @@ const observer = new IntersectionObserver(entries => {
 }, observerProperties);
 
 sections.forEach(section => observer.observe(section));
+
+AOS.init({
+  duration: 1000,
+});
