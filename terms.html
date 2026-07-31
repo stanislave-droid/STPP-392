@@ -37,7 +37,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400..700&family=Titan+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" crossorigin href="/STPP-392/assets/styles-DxNa7-gp.css">
+    <link rel="stylesheet" crossorigin href="/STPP-392/assets/styles-B0baiHyd.css">
   </head>
   <body>
     <header class="header">
@@ -68,7 +68,14 @@
           <a href="#contact-us" class="header-single-link" data-link>Contact</a>
         </li>
       </ul>
-      <button class="burger-button hide-links" data-action="open">
+      <button
+        class="burger-button hide-links"
+        type="button"
+        data-action="open"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Open menu"
+      >
         <svg class="burger-icon" width="32" height="20">
           <use href="/STPP-392/assets/sprite-BDy98o_0.svg#icon-mobile_menu"></use>
         </svg>
@@ -76,6 +83,68 @@
     </nav>
   </div>
 </header>
+
+<div class="mobile-menu" id="mobile-menu" data-visible="close">
+  <div class="container mobile-menu-top">
+    <a href="./index.html" class="header-logo">
+      <img
+        src="/STPP-392/assets/big-favicon-CPTOZxag.jpg"
+        srcset="/STPP-392/assets/big-favicon-2x-BHrb4WHG.jpg 2x"
+        class="header-logo-img"
+        width="40"
+        height="40"
+        alt="logo"
+      />
+    </a>
+    <button
+      class="mobile-menu-close"
+      type="button"
+      data-action="close"
+      aria-label="Close menu"
+    >
+      <svg class="mobile-menu-close-icon" width="28" height="24">
+        <use href="/STPP-392/assets/sprite-BDy98o_0.svg#icon-close-mobile_menu"></use>
+      </svg>
+    </button>
+  </div>
+  <nav class="mobile-menu-nav" aria-label="mobile navigation">
+    <ul class="mobile-menu-links">
+      <li>
+        <a href="#about" class="mobile-menu-link" data-link data-mobile-link
+          >About</a
+        >
+      </li>
+      <li>
+        <a
+          href="#adventages"
+          class="mobile-menu-link"
+          data-link
+          data-mobile-link
+          >Advantages</a
+        >
+      </li>
+      <li>
+        <a href="#reviews" class="mobile-menu-link" data-link data-mobile-link
+          >Reviews</a
+        >
+      </li>
+      <li>
+        <a href="#faq" class="mobile-menu-link" data-link data-mobile-link
+          >FAQ</a
+        >
+      </li>
+      <li>
+        <a
+          href="#contact-us"
+          class="mobile-menu-link"
+          data-link
+          data-mobile-link
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
 
 
     <main>
