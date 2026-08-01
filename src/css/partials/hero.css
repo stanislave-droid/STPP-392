@@ -57,6 +57,12 @@
   transition-timing-function: ease-in-out;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  transform: scale(1.05);
+  background-color: #411ba1;
+}
+
 .hero-button:active {
   background-color: rgba(86, 32, 161, 0.8);
 }
@@ -97,12 +103,6 @@
   .hero-button {
     width: 397px;
     height: 60px;
-  }
-
-  .hero-button:hover,
-  .hero-button:focus {
-    transform: scale(1.05);
-    background-color: #411ba1;
   }
 }
 
