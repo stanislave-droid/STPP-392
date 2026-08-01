@@ -48,7 +48,7 @@
     <script type="module" crossorigin src="/STPP-392/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STPP-392/assets/vendor-COT7Xql0.js">
     <link rel="stylesheet" crossorigin href="/STPP-392/assets/vendor-CyrLCsBN.css">
-    <link rel="stylesheet" crossorigin href="/STPP-392/assets/styles-D6ckRrW9.css">
+    <link rel="stylesheet" crossorigin href="/STPP-392/assets/styles-C1ADJOoF.css">
   </head>
   <body>
     <header class="header">
@@ -82,7 +82,7 @@
       <button
         class="burger-button {=$hide-visuals}"
         type="button"
-        data-action="open"
+        data-menu-open
         aria-expanded="false"
         aria-controls="mobile-menu"
         aria-label="Open menu"
@@ -95,7 +95,7 @@
   </div>
 </header>
 
-<div class="mobile-menu" id="mobile-menu" data-visible="close">
+<div class="mobile-menu" id="mobile-menu" data-mobile-menu data-state="closed">
   <div class="container mobile-menu-top">
     <a href="./index.html" class="header-logo">
       <img
@@ -110,7 +110,7 @@
     <button
       class="mobile-menu-close"
       type="button"
-      data-action="close"
+      data-menu-close
       aria-label="Close menu"
     >
       <svg class="mobile-menu-close-icon" width="28" height="24">
@@ -121,7 +121,7 @@
   <nav class="mobile-menu-nav" aria-label="mobile navigation">
     <ul class="mobile-menu-links">
       <li>
-        <a href="#about" class="mobile-menu-link" data-link data-mobile-link
+        <a href="#about" class="mobile-menu-link" data-link data-menu-link
           >About</a
         >
       </li>
@@ -130,17 +130,17 @@
           href="#adventages"
           class="mobile-menu-link"
           data-link
-          data-mobile-link
+          data-menu-link
           >Advantages</a
         >
       </li>
       <li>
-        <a href="#reviews" class="mobile-menu-link" data-link data-mobile-link
+        <a href="#reviews" class="mobile-menu-link" data-link data-menu-link
           >Reviews</a
         >
       </li>
       <li>
-        <a href="#faq" class="mobile-menu-link" data-link data-mobile-link
+        <a href="#faq" class="mobile-menu-link" data-link data-menu-link
           >FAQ</a
         >
       </li>
@@ -149,7 +149,7 @@
           href="#contact-us"
           class="mobile-menu-link"
           data-link
-          data-mobile-link
+          data-menu-link
           >Contact</a
         >
       </li>
