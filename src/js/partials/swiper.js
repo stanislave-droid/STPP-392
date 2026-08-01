@@ -1,7 +1,6 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
-import { createStars } from '../exported/helpers';
 
 const swiper = new Swiper('#reviews-swiper', {
   modules: [Navigation, Pagination],
@@ -29,5 +28,3 @@ const swiper = new Swiper('#reviews-swiper', {
     bulletActiveClass: 'swiper-pagination-active',
   },
 });
-
-createStars();
