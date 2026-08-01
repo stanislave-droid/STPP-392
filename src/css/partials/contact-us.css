@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.contact-us>.container {
+.contact-us > .container {
   position: relative;
   box-sizing: border-box;
   display: flex;
@@ -17,14 +17,16 @@
   padding-bottom: 100px;
   overflow: hidden;
   text-align: center;
-  background-image: image-set(url('../../img/partials/Contact/Contac_mob-1x.jpg') 1x,
-      url('../../img/partials/Contact/Contac_mob-2x.jpg') 2x);
+  background-image: image-set(
+    url('../../img/partials/Contact/Contac_mob-1x.jpg') 1x,
+    url('../../img/partials/Contact/Contac_mob-2x.jpg') 2x
+  );
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.contact-us>.container::before {
+.contact-us > .container::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -108,6 +110,12 @@
   flex-shrink: 0;
 }
 
+.contact-us-cta:hover,
+.contact-us-cta:focus {
+  transform: scale(1.05);
+  background-color: #411ba1;
+}
+
 .contact-us-cta:active {
   background-color: rgba(86, 32, 161, 0.8);
 }
@@ -120,12 +128,14 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
-  .contact-us>.container {
+  .contact-us > .container {
     min-height: 581px;
     padding-top: 102px;
     padding-bottom: 100px;
-    background-image: image-set(url('../../img/partials/Contact/Contact_Background-1x.jpg') 1x,
-        url('../../img/partials/Contact/Contact_Background-2x.jpg') 2x);
+    background-image: image-set(
+      url('../../img/partials/Contact/Contact_Background-1x.jpg') 1x,
+      url('../../img/partials/Contact/Contact_Background-2x.jpg') 2x
+    );
   }
 
   .contact-us-title-group,
@@ -161,11 +171,5 @@
 
   .contact-us-cta {
     height: 60px;
-  }
-
-  .contact-us-cta:hover,
-  .contact-us-cta:focus {
-    transform: scale(1.05);
-    background-color: #411ba1;
   }
 }
