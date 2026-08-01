@@ -133,6 +133,10 @@
   color: #fff;
 }
 
+.mobile-menu-link {
+  transition: color 0.2s ease-in-out;
+}
+
 .mobile-menu-link:hover,
 .mobile-menu-link:focus {
   color: var(--gold-color);
