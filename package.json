@@ -22,6 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "accordion-js": "^3.4.1",
+    "aos": "^2.3.4",
     "modern-normalize": "^3.0.1",
     "swiper": "^14.0.6",
     "vite-plugin-full-reload": "^1.2.0",
