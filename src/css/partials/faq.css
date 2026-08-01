@@ -1,6 +1,6 @@
 /* Styles for Mobile devices */
 .faq {
-  margin: 0 ;
+  margin: 0;
 }
 
 .faq > .container {
@@ -8,10 +8,25 @@
   min-height: 792px;
   padding: 40px 16px;
   background-color: #2c0f5e;
-  background-image: radial-gradient(120% 140% at 50% 0%, rgba(112, 29, 219, 0.12) 0%, rgba(74, 23, 149, 0.2) 45%, rgba(20, 8, 46, 0.32) 100%),
+  background-image:
+    radial-gradient(
+      120% 140% at 50% 0%,
+      rgba(112, 29, 219, 0.12) 0%,
+      rgba(74, 23, 149, 0.2) 45%,
+      rgba(20, 8, 46, 0.32) 100%
+    ),
     url('../../img/partials/FAQ/FAQ_Mob-1x.jpg');
-  background-image: radial-gradient(120% 140% at 50% 0%, rgba(112, 29, 219, 0.12) 0%, rgba(74, 23, 149, 0.2) 45%, rgba(20, 8, 46, 0.32) 100%),
-    image-set(url('../../img/partials/FAQ/FAQ_Mob-1x.jpg') 1x, url('../../img/partials/FAQ/FAQ_Mob-2x.jpg') 2x);
+  background-image:
+    radial-gradient(
+      120% 140% at 50% 0%,
+      rgba(112, 29, 219, 0.12) 0%,
+      rgba(74, 23, 149, 0.2) 45%,
+      rgba(20, 8, 46, 0.32) 100%
+    ),
+    image-set(
+      url('../../img/partials/FAQ/FAQ_Mob-1x.jpg') 1x,
+      url('../../img/partials/FAQ/FAQ_Mob-2x.jpg') 2x
+    );
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,7 +64,7 @@
   text-align: center;
 }
 
-.faq-accordion {
+#faq-accordion {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -94,7 +109,10 @@
   border-radius: 50%;
   background-color: #f2f1fa;
   stroke: #701ddb;
-  transition: transform 0.25s ease, background-color 0.25s ease, stroke 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    background-color 0.25s ease,
+    stroke 0.25s ease;
 }
 
 .faq-item.is-active .faq-item-icon {
@@ -144,10 +162,27 @@
     padding: 0;
     background-color: #2c0f5e;
     background-position: center top;
-    background-image: radial-gradient(120% 140% at 15% 0%, rgba(155, 77, 255, 0.35) 0%, rgba(112, 29, 219, 0.24) 38%, rgba(74, 23, 149, 0.2) 72%, rgba(20, 8, 46, 0.32) 100%),
+    background-image:
+      radial-gradient(
+        120% 140% at 15% 0%,
+        rgba(155, 77, 255, 0.35) 0%,
+        rgba(112, 29, 219, 0.24) 38%,
+        rgba(74, 23, 149, 0.2) 72%,
+        rgba(20, 8, 46, 0.32) 100%
+      ),
       url('../../img/partials/FAQ/FAQ_Background-1x.jpg');
-    background-image: radial-gradient(120% 140% at 15% 0%, rgba(155, 77, 255, 0.35) 0%, rgba(112, 29, 219, 0.24) 38%, rgba(74, 23, 149, 0.2) 72%, rgba(20, 8, 46, 0.32) 100%),
-      image-set(url('../../img/partials/FAQ/FAQ_Background-1x.jpg') 1x, url('../../img/partials/FAQ/FAQ_Background-2x.jpg') 2x);
+    background-image:
+      radial-gradient(
+        120% 140% at 15% 0%,
+        rgba(155, 77, 255, 0.35) 0%,
+        rgba(112, 29, 219, 0.24) 38%,
+        rgba(74, 23, 149, 0.2) 72%,
+        rgba(20, 8, 46, 0.32) 100%
+      ),
+      image-set(
+        url('../../img/partials/FAQ/FAQ_Background-1x.jpg') 1x,
+        url('../../img/partials/FAQ/FAQ_Background-2x.jpg') 2x
+      );
   }
 
   .faq-content {
@@ -184,7 +219,7 @@
     text-align: center;
   }
 
-  .faq-accordion {
+  #faq-accordion {
     gap: 24px;
     width: 608px;
     margin: 0;

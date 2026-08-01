@@ -5,7 +5,7 @@ const template = document.getElementById('pig-king-template');
 
 if (template) {
   const wrapper = template.content.firstElementChild.cloneNode(true);
-  const img = wrapper.querySelector('.pig-king-img');
+  const img = wrapper.querySelector('#pig-king-img');
   img.src = pigKingNormal;
   document.body.appendChild(wrapper);
 
@@ -29,13 +29,13 @@ if (template) {
 
     const setScaled = isScaled => {
       instances.forEach(({ img }) => {
-        img.classList.toggle('pig-king-img--winking', isScaled);
+        img.dataset.pigkingimgwinking = isScaled;
       });
     };
 
     const setHopSuppressed = isSuppressed => {
       instances.forEach(({ wrapper }) => {
-        wrapper.classList.toggle('pig-king--winking', isSuppressed);
+        wrapper.dataset.pigkingwinking = isSuppressed;
       });
     };
 

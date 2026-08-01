@@ -18,11 +18,11 @@ const swiper = new Swiper('#reviews-swiper', {
     },
   },
   navigation: {
-    prevEl: '.swiper-button-prev',
-    nextEl: '.swiper-button-next',
+    prevEl: '#swiper-button-prev',
+    nextEl: '#swiper-button-next',
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '#swiper-pagination',
     type: 'bullets',
     clickable: true,
     bulletClass: 'swiper-pagination-empty',

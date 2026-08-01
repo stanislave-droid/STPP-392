@@ -128,7 +128,7 @@
   stroke: rgba(86, 32, 161, 0.8);
 }
 
-.swiper-pagination.review-swiper-pagination {
+#swiper-pagination.review-swiper-pagination {
   position: absolute;
   display: flex;
   justify-content: center;
