@@ -30,11 +30,19 @@
   transition: transform 0.2s ease-in-out;
 }
 
-.pig-king--winking {
+[data-pigkingwinking='false'] {
+  animation: pig-king-hop 1.6s ease-in-out infinite;
+}
+
+[data-pigkingwinking='true'] {
   animation: none;
 }
 
-.pig-king-img--winking {
+[data-pigkingimgwinking='false'] {
+  transform: scale(1);
+}
+
+[data-pigkingimgwinking='true'] {
   transform: scale(1.15);
 }
 
