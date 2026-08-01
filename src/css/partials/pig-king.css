@@ -1,12 +1,3 @@
-.hero,
-.about,
-.advantages,
-.reviews,
-.faq,
-.contact-us {
-  position: relative;
-}
-
 @keyframes pig-king-hop {
   0%,
   100% {
@@ -18,7 +9,7 @@
 }
 
 .pig-king {
-  position: absolute;
+  position: fixed;
   left: 16px;
   bottom: 16px;
   z-index: 500;
